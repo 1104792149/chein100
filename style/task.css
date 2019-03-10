@@ -1,0 +1,478 @@
+.top {
+	width: 100%;
+	height: 438upx;
+	position: relative;
+	background: #FFFFFF;
+}
+
+.top_bg {
+	width: 100%;
+	height: 438upx;
+	position: absolute;
+	z-index: 1;
+}
+
+.yue {
+	font-size: 66upx;
+	margin-top: 10upx;
+	display: block;
+}
+
+.top_content {
+	top: 60upx;
+	left: 50upx;
+	position: absolute;
+	z-index: 2;
+	color: #F5F5F7;
+	font-size: 24upx;
+}
+.public_and_private{
+	width:110upx;
+	height:36upx;
+	background:rgba(201,166,117,1);
+	border-radius:18upx;
+	font-size: 20upx;
+	color: #5D4D3A;
+	vertical-align: middle;
+	margin-top: 29upx;
+	text-align: center;
+	line-height: 36upx;
+}
+.public_and_private>image{
+	width: 20upx;
+	height: 20upx;
+	vertical-align: middle;
+	/*margin-top: 8upx;*/
+}
+.every_day {
+	width: 100%;
+	height: 200upx;
+	background: #FFFFFF;
+}
+
+.every_day_text {
+	float: left;
+	margin-left: 20upx;
+	font-size: 30upx;
+	line-height: 60upx;
+	font-weight: bold;
+}
+
+.tipIcon {
+	width: 6upx;
+	height: 20upx;
+	float: left;
+	background: #C9A675;
+	border-radius: 3px;
+	margin-left: 14upx;
+	margin-top: 20upx;
+}
+
+.every_day_box {
+	width: 630upx;
+	height: 60upx;
+	margin: 20upx 60upx;
+	display: flex;
+	justify-content: space-between;
+}
+
+.sign,
+.pan {
+	width: 250upx;
+	height: 60upx;
+}
+
+.every_day_border {
+	width: 1upx;
+	height: 60upx;
+	background: rgba(227, 225, 226, 1);
+}
+
+.signLeft {
+	float: left;
+}
+
+.signTitle {
+	font-size: 28upx;
+	font-weight: bold;
+	margin-bottom: 18upx;
+	line-height: 28upx;
+}
+
+.signGold {
+	font-size: 24upx;
+	color: #999;
+	line-height: 23upx;
+}
+
+.signRight {
+	width: 66upx;
+	height: 66upx;
+	float: right;
+}
+
+.Bta_item {
+	width: 100%;
+	height: 150upx;
+	background: #FFFFFF;
+	margin-top: 4upx;
+}
+.bta_content{
+	width: 690upx;margin: 0 auto;
+	justify-content: space-between;
+	display: flex;
+}
+.Bta_left {
+	display: flex;
+	 flex-direction:column;
+	 justify-content: center;
+}
+
+.Bta_right {
+	width: 140upx;
+	height: 150upx;
+	position: relative;
+	flex-direction:column;
+	justify-content: center;
+	display: flex;
+}
+
+.Bta_right_top {
+	height: 30upx;
+	width: 150upx;
+	display: block;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Bta_right_btn {
+	width: 140upx;
+	height: 48upx;
+	/* position: absolute; */
+	color: rgba(201, 166, 117, 1);
+	text-align: center;
+	font-size: 20upx;
+	font-weight: bold;
+	/* position: absolute;
+	top: 76upx;
+	left: 0; */
+	line-height: 50upx;
+	border-radius: 48upx;
+}
+
+.BtaTitle {
+	height: 28upx;
+	line-height: 27upx;
+	display: flex;
+	align-items: center;
+}
+
+.BtaGold {
+	height: 24upx;
+	line-height: 24upx;
+	align-items: center;
+	display: flex;
+}
+
+.backgroundV,
+.topV {
+	width: 110upx;
+	height: 110upx;
+	position: absolute;
+	top: 0upx;
+	left: 0upx;
+	border-radius: 50%;
+	border: 5upx solid transparent;
+}
+
+/* BTA任务里面深色进度条 */
+.topV {
+	border-top: 5upx solid #E8C28C;
+	transform: rotate(0deg);
+	border-left: 5upx solid #E8C28C;
+	z-index: 2;
+}
+
+.backgroundV {
+	transform: rotate(-45deg);
+	border-top: 5upx solid #f2f2f2;
+	border-right: 5upx solid #f2f2f2;
+}
+
+.numProgress {
+	font-size: 18upx;
+	color: #5D4D3A;
+	text-align: center;
+	height: 18upx;
+	width: 100%;
+	position: absolute;
+	z-index: 3;
+	bottom: 6upx;
+	left: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.hexinBox {
+	width: 720upx;
+	margin-left: 25upx;
+	margin-top: -10upx;
+}
+
+.hexinItem {
+	margin-top: 20upx;
+	float: left;
+	margin-right: 20upx;
+	width: 340upx;
+	height: 340upx;
+	background: white;
+	position: relative;
+}
+
+.hexinItemC {
+	width: 340upx;
+	height: 340upx;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+
+.taskName {
+	margin: 50upx 33upx 0 33upx;
+	font-size: 30upx;
+	color: #222222;
+	line-height: 40upx;
+	font-weight: bold;
+	height: 80upx;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+
+.taskBtn {
+	width: 180upx;
+	height: 64upx;
+	border-radius: 64upx;
+	font-size: 30upx;
+	text-align: center;
+	line-height: 64upx;
+	margin: 38upx 0 0 25upx;
+	font-weight: bold;
+}
+
+.taskPro {
+	margin: 45upx 0 0 25upx;
+	font-size: 28upx;
+	color: #999999;
+}
+
+/* 按钮的三种状态 */
+.can {
+	background: linear-gradient(126deg, rgba(215, 171, 108, 1), rgba(239, 201, 146, 1));
+	color: #5D4D3A;
+}
+
+.no {
+	border: 2upx solid rgba(201, 166, 117, 1);
+	color: rgba(201, 166, 117, 1);
+}
+
+.has {
+	background: #EBD5B5;
+	color: #6F4F2B;
+	opacity: 0.6;
+}
+
+.noOpen {
+	border: 2upx solid rgba(191, 191, 191, 1);
+	color: rgba(191, 191, 191, 1);
+}
+
+.can_get_gold {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 340upx;
+	z-index: 1;
+}
+
+.no_open {
+	width: 218upx;
+	height: 171upx;
+	position: absolute;
+	top: 61upx;
+	left: 51upx;
+}
+
+.hope {
+	width: 100%;
+	height: 25upx;
+	text-align: center;
+	line-height: 25upx;
+	position: absolute;
+	top: 215upx;
+	left: 0;
+	color: #CCCCCC;
+	font-size: 24upx;
+	z-index: 2;
+}
+
+.daojishi_text {
+	color: #222222;
+	font-size: 16upx;
+	float: left;
+	height: 30upx;
+	line-height: 30upx;
+	font-weight: bold;
+}
+
+.daojishi_item_box {
+	width: 70upx;
+	justify-content: space-between;
+	display: flex;
+	position: relative;
+}
+
+.daojishi_item {
+	width: 21upx;
+	height: 30upx;
+	display: inline-block;
+	font-size: 23upx;
+	background-color: #222222;
+	color: #C9A675;
+	border-radius: 5upx;
+	text-align: center;
+	line-height: 29upx;
+}
+
+.daojishi_line {
+	background-color: #0F0F0F;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 70upx;
+	height: 1upx;
+}
+
+.btn_type1 {
+	color: rgba(201, 166, 117, 1);
+	border: 2upx solid #C9A675;
+}
+
+.btn_type_no_tap {
+	/* background:#EBD5B5; */
+	color: (111, 79, 43, 1);
+	/* opacity: 0.6; */
+	line-height: 50upx;
+	margin-top: 10upx;
+}
+
+.btn_type_end {
+	color: #6F4F2B;
+	opacity: 0.6;
+}
+
+.btn_type_can_tap {
+	background: #D7AB6C;
+	color: #6F4F2B;
+}
+
+.close_icon {
+	width: 28upx;
+	height: 28upx;
+	float: right;
+	margin-right: 37upx;
+	margin-top: 37upx;
+}
+
+.prize_toast {
+	width: 580upx;
+	height: 554upx;
+	position: fixed;
+	z-index: 100;
+	background-color: white;
+	top: 50%;
+	left: 85upx;
+	transform: translateY(-50%) scale(1);
+	transition: all 0.7s;
+	transform-origin: 50% 0;
+	opacity: 1;
+}
+
+.hide_prize_toast {
+	transform: scale(0);
+	opacity: 0;
+}
+
+.prize_img {
+	width: 210upx;
+	height: 210upx;
+	margin: 70upx auto 0;
+}
+
+.prize_desc {
+	color: #1E1E1E;
+	font-size: 32upx;
+	width: 100%;
+	text-align: center;
+	line-height: 32upx;
+}
+
+.getPrize {
+	width: 420upx;
+	height: 80upx;
+	margin: 90upx auto 0;
+	text-align: center;
+	line-height: 80upx;
+	background: linear-gradient(126deg, rgba(215, 171, 108, 1), rgba(239, 201, 146, 1));
+	border-radius: 40upx;
+	color: rgba(93, 77, 58, 1);
+	font-size: 32upx;
+}
+
+/*BTA奖励类型*/
+.bta_prize {
+	width: 100%;
+	height: 50upx;
+	line-height: 50upx;
+	text-align: center;
+	margin: 160upx auto 0;
+	font-size: 60upx;
+	color: #C9A675;
+}
+
+.prize_desc2 {
+	width: 100%;
+	height: 32upx;
+	line-height: 32upx;
+	text-align: center;
+	margin: 65upx auto 0;
+	font-size: 32upx;
+	color: #1E1E1E;
+}
+
+.hasGived {
+	width: 100%;
+	height: 24upx;
+	line-height: 24upx;
+	text-align: center;
+	margin: 140upx auto 0;
+	font-size: 24upx;
+	color: #999999;
+}
+
+.zhezhaoceng {
+	width: 100%;
+	height: 100vh;
+	z-index: 20;
+	background-color: #000000;
+	opacity: 0.8;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
